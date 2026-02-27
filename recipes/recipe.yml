@@ -19,9 +19,33 @@ modules:
   - type: dnf
     install:
       packages:
+        - alsa-sof-firmware
+        - amd-ucode-firmware
+        - bash
+        - curl
+        - git
+        - gstreamer1-plugin-dav1d
+        - gstreamer1-plugin-libav
+        - gstreamer1-plugins-bad-free
+        - gstreamer1-plugins-good
+        - gstreamer1-plugins-ugly-free
         - helix
+        - intel-audio-firmware
         - labwc
         - labwc-session
+        - libva-intel-media-driver
+        - linux-firmware
+        - man-db
+        - man-pages
+        - microcode_ctl
+        - mksh
+        - NetworkManager
+        - NetworkManager-wifi
+        - rpm
+        - rpm-ostree
+        - systemd
+        - thermald
+        - which
 
   - type: default-flatpaks
     configurations:
