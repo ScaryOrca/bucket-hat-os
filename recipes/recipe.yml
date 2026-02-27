@@ -5,7 +5,7 @@ name: bucket-hat-os
 description: Matthew's personal OS image.
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: quay.io/fedora/fedora-bootc
+base-image: quay.io/fedora-ostree-desktops/base-atomic
 image-version: 43 # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
@@ -20,53 +20,12 @@ modules:
     install:
       packages:
         - alacritty
-        - alsa-sof-firmware
-        - alsa-ucm
-        - alsa-utils
-        - amd-ucode-firmware
-        - bash
-        - curl
-        - flatpak
-        - git
-        - gstreamer1-plugin-dav1d
-        - gstreamer1-plugin-libav
-        - gstreamer1-plugins-bad-free
-        - gstreamer1-plugins-good
-        - gstreamer1-plugins-ugly-free
         - helix
-        - intel-audio-firmware
-        - iwlwifi-dvm-firmware
-        - iwlwifi-mvm-firmware
         - labwc
         - labwc-session
-        - libva-intel-media-driver
-        - linux-firmware
-        - man-db
-        - man-pages
-        - mesa-dri-drivers
-        - mesa-vulkan-drivers
-        - microcode_ctl
         - mksh
-        - NetworkManager
-        - NetworkManager-wifi
-        - pipewire-alsa
-        - pipewire-config-raop
-        - pipewire-gstreamer
-        - pipewire-pulseaudio
-        - pipewire-utils
-        - rpm
-        - rpm-ostree
-        - systemd
-        - systemd-oomd-defaults
-        - systemd-udev
-        - systemd-resolved
-        - thermald
         - tmux
-        - which
-        - wpa_supplicant
-        - xdg-desktop-portal-gtk
         - xdg-desktop-portal-wlr
-        - xorg-x11-server-Xwayland
 
   - type: default-flatpaks
     configurations:
