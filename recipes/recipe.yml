@@ -21,6 +21,8 @@ modules:
       packages:
         - alacritty
         - alsa-sof-firmware
+        - alsa-ucm
+        - alsa-utils
         - amd-ucode-firmware
         - bash
         - curl
@@ -47,6 +49,11 @@ modules:
         - mksh
         - NetworkManager
         - NetworkManager-wifi
+        - pipewire-alsa
+        - pipewire-config-raop
+        - pipewire-gstreamer
+        - pipewire-pulseaudio
+        - pipewire-utils
         - rpm
         - rpm-ostree
         - systemd
