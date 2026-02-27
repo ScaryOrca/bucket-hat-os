@@ -19,7 +19,9 @@ modules:
   - type: dnf
     install:
       packages:
+        - Thunar
         - alacritty
+        - gvfs
         - helix
         - labwc
         - labwc-session
