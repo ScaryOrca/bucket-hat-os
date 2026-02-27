@@ -19,10 +19,12 @@ modules:
   - type: dnf
     install:
       packages:
+        - alacritty
         - alsa-sof-firmware
         - amd-ucode-firmware
         - bash
         - curl
+        - flatpak
         - git
         - gstreamer1-plugin-dav1d
         - gstreamer1-plugin-libav
