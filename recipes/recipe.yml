@@ -50,6 +50,9 @@ modules:
         - rpm
         - rpm-ostree
         - systemd
+        - systemd-oomd-defaults
+        - systemd-udev
+        - systemd-resolved
         - thermald
         - tmux
         - which
