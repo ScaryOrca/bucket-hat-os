@@ -21,11 +21,13 @@ modules:
       packages:
         - Thunar
         - alacritty
+        - google-go-mono-fonts
         - gvfs
         - helix
         - labwc
         - labwc-session
         - mksh
+        - rofi
         - tmux
         - xdg-desktop-portal-wlr
 
