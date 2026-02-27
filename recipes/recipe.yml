@@ -39,6 +39,8 @@ modules:
         - linux-firmware
         - man-db
         - man-pages
+        - mesa-dri-drivers
+        - mesa-vulkan-drivers
         - microcode_ctl
         - mksh
         - NetworkManager
@@ -47,8 +49,12 @@ modules:
         - rpm-ostree
         - systemd
         - thermald
+        - tmux
         - which
         - wpa_supplicant
+        - xdg-desktop-portal-gtk
+        - xdg-desktop-portal-wlr
+        - xorg-x11-server-Xwayland
 
   - type: default-flatpaks
     configurations:
