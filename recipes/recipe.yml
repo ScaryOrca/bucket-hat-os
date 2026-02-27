@@ -31,6 +31,8 @@ modules:
         - gstreamer1-plugins-ugly-free
         - helix
         - intel-audio-firmware
+        - iwlwifi-dvm-firmware
+        - iwlwifi-mvm-firmware
         - labwc
         - labwc-session
         - libva-intel-media-driver
@@ -46,6 +48,7 @@ modules:
         - systemd
         - thermald
         - which
+        - wpa_supplicant
 
   - type: default-flatpaks
     configurations:
