@@ -1,0 +1,37 @@
+# Loopback entries; do not change.
+# For historical reasons, localhost precedes localhost.localdomain:
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+# See hosts(5) for proper format and other examples:
+# 192.168.1.10 foo.example.org foo
+# 192.168.1.13 bar.example.org bar
+
+# Shopping
+0.0.0.0 a.co
+0.0.0.0 amazon.com
+0.0.0.0 m.amazon.com
+0.0.0.0 smile.amazon.com
+0.0.0.0 www.amazon.com
+0.0.0.0 temu.com
+0.0.0.0 www.temu.com
+
+# Social media
+0.0.0.0 facebook.com
+0.0.0.0 m.facebook.com
+0.0.0.0 www.facebook.com
+0.0.0.0 instagram.com
+0.0.0.0 www.instagram.com
+0.0.0.0 reddit.com
+0.0.0.0 old.reddit.com
+0.0.0.0 www.reddit.com
+0.0.0.0 threads.com
+0.0.0.0 www.threads.com
+0.0.0.0 tiktok.com
+0.0.0.0 www.tiktok.com
+0.0.0.0 twitter.com
+0.0.0.0 www.twitter.com
+0.0.0.0 x.com
+0.0.0.0 www.x.com
+
+# YouTube thumbnails
+0.0.0.0 i.ytimg.com
