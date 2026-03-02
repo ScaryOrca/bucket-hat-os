@@ -33,6 +33,10 @@ modules:
         - swaylock
         - tmux
         - xdg-desktop-portal-wlr
+    remove:
+      packages:
+        - firefox
+        - firefox-langpacks
 
   - type: default-flatpaks
     configurations:
