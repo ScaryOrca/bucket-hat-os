@@ -33,6 +33,8 @@ modules:
         - swaylock
         - tmux
         - xdg-desktop-portal-wlr
+        - zathura
+        - zathura-plugins-all
     remove:
       packages:
         - firefox
