@@ -25,6 +25,7 @@ modules:
         - kanshi
         - labwc
         - labwc-session
+        - lxqt-policykit
         - mksh
         - polkit
         - pulseaudio-utils
