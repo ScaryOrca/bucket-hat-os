@@ -32,6 +32,7 @@ modules:
         - swaybg
         - swaylock
         - tmux
+        - waydroid
         - xdg-desktop-portal-wlr
         - zathura
         - zathura-plugins-all
