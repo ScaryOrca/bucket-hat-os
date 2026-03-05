@@ -17,6 +17,7 @@ modules:
         - Thunar
         - alacritty
         - blueman
+        - brightnessctl
         - dunst
         - gnome-keyring-pam
         - google-go-mono-fonts
