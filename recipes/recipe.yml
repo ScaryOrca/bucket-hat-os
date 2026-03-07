@@ -32,6 +32,7 @@ modules:
         - pulseaudio-utils
         - rofi
         - swaybg
+        - swayidle
         - swaylock
         - tmux
         - waydroid
