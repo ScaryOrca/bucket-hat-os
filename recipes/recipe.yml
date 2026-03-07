@@ -11,6 +11,10 @@ modules:
       - source: system
         destination: /
 
+  - type: chezmoi
+    repository: "https://github.com/ScaryOrca/dotfiles"
+    file-conflict-policy: replace
+
   - type: dnf
     install:
       packages:
@@ -19,7 +23,6 @@ modules:
         - alacritty
         - blueman
         - brightnessctl
-        - chezmoi
         - dunst
         - gnome-keyring-pam
         - google-go-mono-fonts
