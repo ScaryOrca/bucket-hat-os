@@ -19,6 +19,7 @@ modules:
         - alacritty
         - blueman
         - brightnessctl
+        - chezmoi
         - dunst
         - gnome-keyring-pam
         - google-go-mono-fonts
