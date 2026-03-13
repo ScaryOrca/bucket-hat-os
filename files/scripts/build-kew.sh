@@ -19,7 +19,7 @@ dnf install -y "${DEPS[@]}"
 git clone https://codeberg.org/ravachol/kew.git /tmp/kew
 cd /tmp/kew
 make -j$(nproc)
-make install
+make install PREFIX=/usr
 
 # Remove dependencies.
 dnf remove -y "${DEPS[@]}"
