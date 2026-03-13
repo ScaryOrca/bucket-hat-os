@@ -2,10 +2,22 @@
 set -oue pipefail
 
 DEPS=(
+  chafa
+  faad2
+  fftw
+  glib2
+  libatomic
+  libogg
+  libvorbis
+  opus
+  opusfile
+  taglib
+)
+
+BUILD_DEPS=(
   chafa-devel
   fftw-devel
   glib2-devel
-  libatomic
   libogg-devel
   libvorbis-devel
   opus-devel
@@ -14,7 +26,7 @@ DEPS=(
 )
 
 # Install dependencies.
-dnf install -y "${DEPS[@]}"
+dnf install -y "${DEPS[@]}" "${BUILD_DEPS[@]}"
 
 git clone https://codeberg.org/ravachol/kew.git /tmp/kew
 cd /tmp/kew
@@ -22,4 +34,4 @@ make -j$(nproc)
 make install PREFIX=/usr
 
 # Remove dependencies.
-dnf remove -y "${DEPS[@]}"
+dnf remove -y "${BUILD_DEPS[@]}"
