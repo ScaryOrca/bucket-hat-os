@@ -16,6 +16,7 @@ DEPS=(
 
 BUILD_DEPS=(
   chafa-devel
+  faad2-devel
   fftw-devel
   glib2-devel
   libogg-devel
