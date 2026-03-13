@@ -49,6 +49,10 @@ modules:
         - firefox
         - firefox-langpacks
 
+  - type: script
+    scripts:
+      - build-kew.sh
+
   - type: default-flatpaks
     configurations:
       - notify: false
