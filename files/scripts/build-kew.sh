@@ -16,8 +16,9 @@ DEPS=(
 # Install dependencies.
 dnf install -y "${DEPS[@]}"
 
-git clone https://codeberg.org/ravachol/kew.git && cd kew
-make -j4
+git clone https://codeberg.org/ravachol/kew.git /tmp/kew
+cd /tmp/kew
+make -j$(nproc)
 make install
 
 # Remove dependencies.
