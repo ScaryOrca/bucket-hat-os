@@ -55,6 +55,7 @@ modules:
   - type: script
     scripts:
       - build-kew.sh
+      - install-lidm.sh
 
   - type: systemd
     system:
