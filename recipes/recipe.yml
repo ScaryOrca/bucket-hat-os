@@ -26,6 +26,7 @@ modules:
         - dunst
         - gnome-keyring-pam
         - google-go-mono-fonts
+        - greetd
         - gvfs
         - helix
         - kanshi
@@ -43,6 +44,7 @@ modules:
         - swayidle
         - swaylock
         - tmux
+        - tuigreet
         - waydroid
         - xdg-desktop-portal-wlr
         - zathura
@@ -55,13 +57,12 @@ modules:
   - type: script
     scripts:
       - build-kew.sh
-      - install-lidm.sh
 
   - type: systemd
     system:
       enabled:
+        - greetd.service
         - kmsconvt@.service
-        - lidm.service
 
   - type: default-flatpaks
     configurations:
