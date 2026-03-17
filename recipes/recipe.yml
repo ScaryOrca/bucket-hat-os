@@ -26,7 +26,6 @@ modules:
         - dunst
         - gnome-keyring-pam
         - google-go-mono-fonts
-        - greetd
         - gvfs
         - helix
         - kanshi
@@ -40,11 +39,12 @@ modules:
         - polkit
         - pulseaudio-utils
         - rofi
+        - sddm
+        - sddm-wayland-generic
         - swaybg
         - swayidle
         - swaylock
         - tmux
-        - tuigreet
         - waydroid
         - xdg-desktop-portal-wlr
         - zathura
@@ -61,8 +61,8 @@ modules:
   - type: systemd
     system:
       enabled:
-        - greetd.service
         - kmsconvt@.service
+        - sddm.service
 
   - type: default-flatpaks
     configurations:
