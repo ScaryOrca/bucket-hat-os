@@ -29,6 +29,9 @@ modules:
         - gvfs
         - helix
         - kanshi
+        - kmscon
+        - kmscon-gl
+        - kmscon-pango
         - labwc
         - labwc-session
         - lxqt-policykit
@@ -52,7 +55,11 @@ modules:
   - type: script
     scripts:
       - build-kew.sh
-      - enable-kmscon.sh
+
+  - type: systemd
+    system:
+      enabled:
+        - kmsconvt@.service
 
   - type: default-flatpaks
     configurations:
