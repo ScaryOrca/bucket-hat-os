@@ -52,6 +52,7 @@ modules:
   - type: script
     scripts:
       - build-kew.sh
+      - enable-kmscon.sh
 
   - type: default-flatpaks
     configurations:
