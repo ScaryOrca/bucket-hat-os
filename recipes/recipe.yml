@@ -57,6 +57,7 @@ modules:
   - type: script
     scripts:
       - build-kew.sh
+      - setup-greetd.sh
 
   - type: systemd
     system:
