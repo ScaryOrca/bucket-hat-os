@@ -64,6 +64,8 @@ modules:
       enabled:
         - greetd.service
         - kmsconvt@.service
+      disabled:
+        - kmsconvt@tty1.service
 
   - type: default-flatpaks
     configurations:
