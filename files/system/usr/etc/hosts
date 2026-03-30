@@ -33,5 +33,8 @@
 0.0.0.0 x.com
 0.0.0.0 www.x.com
 
-# YouTube thumbnails
+# YouTube
 0.0.0.0 i.ytimg.com
+0.0.0.0 m.youtube.com
+0.0.0.0 youtube.com
+0.0.0.0 www.youtube.com
