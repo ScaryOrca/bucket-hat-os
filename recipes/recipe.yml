@@ -24,6 +24,7 @@ modules:
         - blueman
         - brightnessctl
         - dunst
+        - gnome-boxes
         - gnome-keyring-pam
         - google-go-mono-fonts
         - greetd
